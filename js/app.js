@@ -91,7 +91,7 @@ var getTopAnswerers = function (searchTerm){
 	};
 
 	var result = $.ajax({
-		url: "http://api.stackexchange.com/2.2/tags/" + searchTerm + "/top-answerers/all_time",
+		url: "https://api.stackexchange.com/2.2/tags/" + searchTerm + "/top-answerers/all_time",
 		data: request,
 		dataType: "jsonp",
 		type: "GET"
